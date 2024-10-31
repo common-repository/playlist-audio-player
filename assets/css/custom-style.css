@@ -1,0 +1,51 @@
+* {list-style: none;margin: 0px;padding: 0px;text-decoration: none;}
+body {font-family: 'Open Sans', sans-serif;background: #f1f1f1;font-size: 14px;}              
+
+a:hover, a:active, a:focus {
+	outline:none !important;
+}
+a {
+	outline:none !important;
+}
+img{max-width:100%;}
+h3 {
+    color: hsl(213, 14%, 16%);
+    font-size: 1.3em;
+    margin: 1em 0;
+}
+
+.form-group{float: left !important; width: 100% !important;}
+.no-padding{padding: 0px !important;}
+.no-padding-right{padding-right: 0px !important;}
+.clear{clear: both;}
+.error {color: hsl(0, 100%, 50%); font-weight: normal;}
+
+.dataTables_info{float: left;}
+.paging_full_numbers{
+	background: hsl(0, 0%, 93%) none repeat scroll 0 0;
+    border-radius: 5px;
+    float: right;
+    padding: 5px 10px;}
+
+.paging_full_numbers a{
+	border-right: 1px solid hsl(0, 0%, 87%);
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    padding: 0 10px;
+    text-decoration: none;}
+.paging_full_numbers a:last-child{border-right:none;}
+.main_box{background:#fff; padding:0 40px 20px;}
+
+
+ @media only screen and (min-width: 1250px) and (max-width:1366px){
+ 	.container {width: 98% !important;}
+ }
+ @media only screen and (min-width: 1024px) and (max-width:1250px){
+ 	.container {width: 98% !important;}
+ }
+@media only screen and (min-width: 768px) and (max-width:1023px){
+	.container {width: 98% !important;}
+}
+@media (max-width: 767px){}
+@media (max-width:480px){}
+@media (max-width:320px){}
